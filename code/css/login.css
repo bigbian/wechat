@@ -1,0 +1,114 @@
+body{
+	margin: 0;
+	padding: 0;
+	overflow-x:hidden; 
+	background-repeat: no-repeat;
+	max-width: 100%;
+	/*border: 7px solid red;*/
+}
+div{
+	margin: 0;
+	padding: 0;
+	background-repeat: no-repeat;
+	max-width: 100%;
+	/*border: 6px solid yellow;*/
+}
+p{
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+}
+div.container{
+}
+div.title{
+	position: relative;
+	margin-top: 10%;
+	/*border:5px solid black;*/
+}
+div.input{
+	/*max-width: 100%;*/
+	background-image: url(../src/login_bg.png);
+	float: left;
+	background-position: center;
+	background-repeat: repeat;
+	position: relative;
+	width: 60%;
+	margin-top: 2%;
+	margin-left: 15.5%;
+	padding-left: 4%;
+	padding-right: 4%;
+	/*border:5px solid black;*/
+}
+p.login_title{
+	font-size: 4.5em;
+	font-family: "Microsoft YaHei";
+	font-weight: 500;
+	color: white;
+	text-align: center;
+	/*border: 3px solid blue;*/
+}
+p.login_test{
+	font-size: 2.1em;
+	font-family: "Microsoft YaHei";
+	font-weight: 500;
+	font-style: italic;
+	color: white;
+	letter-spacing: 5;
+	text-align: center;
+	/*border: 3px solid blue;*/
+}
+/*
+img.login_bg{
+	position: relative;
+	margin-left: 22%;
+	height:9.7%;
+	width:55%;
+	opacity: 0.5;
+	border: 3px solid blue;
+}*/
+img.list_bg{
+
+}
+input.login_id{
+	float: left;
+	max-width: 88%;
+	width: 230px;
+	height: 5%;
+	margin-left: 3%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	font-size: 0.9em;
+	font-style: italic;
+	color: gray;
+	padding: 1.1em;
+	/*border: 3px solid green;*/
+}
+input.login_psw{
+	float: left;	
+	max-width: 88%;
+	width: 230px;
+	height: 5%;
+	margin-left: 3%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	font-size: 0.9em;
+	font-style: italic;
+	color: gray;
+	padding: 1.1em;
+	/*border: 3px solid green;*/
+}
+input.login_submit{
+	cursor: pointer;
+	float: left;
+	max-width: 88%;
+	width: 230px;
+	height: 38px;
+	margin-left: 3%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	background-color: LimeGreen;
+	color:white;
+	font-weight: 600;
+	font-size: 1.3em;
+	/*border: 3px solid green;*/
+}

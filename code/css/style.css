@@ -1,0 +1,63 @@
+img.login_bg{
+	max-width: 100%;
+	height: auto;
+	width:800px;
+	height:60px;
+	opacity: 0.5;
+	position: absolute;
+	top:350px;
+	left:300px; 
+}
+body{
+	background-repeat: no-repeat;
+}
+p.login_title{
+	position: absolute;
+	top: 120px;
+	left:360px;
+	font-size: 70;
+	font-family: sans-serif;
+	font-weight: 900;
+	color: white;
+}
+p.login_test{
+	position: absolute;
+	top: 250px;
+	left:450px;
+	font-size: 35;
+	font-family: sans-serif;
+	font-weight: 500;
+	font-style: italic;
+	color: white;
+}
+input.login_id{
+	position: absolute;
+	top:364px;
+	left: 320px;
+	width: 220;
+	height: 30;
+	font-size: 15;
+	padding: 15px;
+}
+input.login_psw{
+	position: absolute;
+	top:364px;
+	left: 590px;
+	width: 220;
+	height: 30;
+	font-size: 15;
+	padding: 15px;
+}
+input.login_submit{
+	position: absolute;
+	top:364px;
+	left: 860px;
+	width: 220;
+	height: 34;
+	margin: 0;
+	border: 0;
+	background-color: LimeGreen;
+	color:white;
+	font-weight: 600;
+	font-size: 20;
+}
